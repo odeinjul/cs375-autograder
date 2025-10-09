@@ -1,13 +1,13 @@
-/* symtab.c            Gordon S. Novak Jr.            ; 15 Feb 18    */
+/* symtab.c            Gordon S. Novak Jr.            ; 06 Oct 21    */
 
 /* Symbol Table Code and Data for Pascal Compiler */
 /* See the documentation file, symtab.txt         */
 
-/* Copyright (c) 2018 Gordon S. Novak Jr. and
+/* Copyright (c) 2021 Gordon S. Novak Jr. and
    The University of Texas at Austin. */
 
 /* 09 Feb 01; 21 Feb 07; 06 Aug 09; 19 Jul 12; 26 Jul 12; 30 Jul 12;
-   02 Aug 12; 24 Dec 12; 13 May 13; 10 Oct 16 */
+   02 Aug 12; 24 Dec 12; 13 May 13; 10 Oct 16; 15 Feb 18 */
 
 /*
 ; This program is free software; you can redistribute it and/or modify

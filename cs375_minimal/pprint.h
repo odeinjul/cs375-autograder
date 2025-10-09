@@ -1,8 +1,8 @@
-/* pprint.h            Gordon S. Novak Jr.           11 Oct 17 */
+/* pprint.h            Gordon S. Novak Jr.           07 Nov 22 */
 
 /* Definitions for lexical analyzer */
 
-/* Copyright (c) 2017 Gordon S. Novak Jr. and
+/* Copyright (c) 2022 Gordon S. Novak Jr. and
    The University of Texas at Austin. */
 
 /* This program is free software; you can redistribute it and/or modify
@@ -26,9 +26,6 @@ void dbugprinttok(TOKEN tok);
 void ppexpr(TOKEN tok);
 void pplist(TOKEN tok);
 void dbugplist(TOKEN tok);
+void dbugbplist(TOKEN tok);
 void dbugbprinttok(TOKEN tok);
 void dbugprintexpr(TOKEN tok);
-void markSkippedProgn(TOKEN tok);
-void removeMarkedProgn(TOKEN root);
-void switchOperands(TOKEN op);
-void exprCanonicalization(TOKEN root);

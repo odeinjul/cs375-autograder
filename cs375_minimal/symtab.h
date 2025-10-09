@@ -1,8 +1,8 @@
-/* symtab.h            Gordon S. Novak Jr.           ; 10 Oct 16 */
+/* symtab.h            Gordon S. Novak Jr.           ; 06 Oct 21 */
 
 /* Symbol Table Record and Definitions */
 
-/* Copyright (c) 2016 Gordon S. Novak Jr. and
+/* Copyright (c) 2021 Gordon S. Novak Jr. and
    The University of Texas at Austin. */
 
 /* 
@@ -20,7 +20,7 @@
  along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
 
-/* 21 Feb 07; 01 Aug 12; 03 Aug 12; 24 Dec 12
+/* 21 Feb 07; 01 Aug 12; 03 Aug 12; 24 Dec 12; 10 Oct 16
 
  */
 

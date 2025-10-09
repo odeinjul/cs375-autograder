@@ -1,4 +1,4 @@
-/* lexan.h            Gordon S. Novak Jr.           11 Oct 17 */
+/* lexan.h            Gordon S. Novak Jr.   11 Oct 17; 20 Jan 24 */
 
 /* Definitions for lexical analyzer */
 
@@ -36,8 +36,6 @@ void printtoken(TOKEN tok);
 
 void skipblanks ();
 void initscanner ();
-extern int EOFFLG;
-extern int CHARCLASS[MAXCHARCLASS];
 TOKEN identifier (TOKEN tok);
 TOKEN getstring (TOKEN tok);
 TOKEN special (TOKEN tok);

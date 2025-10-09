@@ -1,4 +1,4 @@
-/* lexandr.c         Gordon S. Novak Jr.    10 Feb 04; 31 May 12       */
+/* lexandr.c         Gordon S. Novak Jr.    10 Feb 04; 31 May 12; 20 Jan 24 */
 
 /* This is a driver program for testing the lexical analyzer written in C. */
 
@@ -33,6 +33,8 @@ or:
 #include <ctype.h>
 #include "token.h"
 #include "lexan.h"
+
+extern int EOFFLG;
 
 void testscanner()
   { TOKEN tok;

@@ -161,7 +161,7 @@ void asmldrrm(int inst, int offset, int reg, int mult, int dstreg, char str[]);
 void asmstr(int inst, int srcreg, int offset, int reg, char str[]);
 /* Generate a store instruction using offset, RBP and another register: */
 /* Example:
-   asmstrr(MOVL, ECX, -8, RAX, code->stringval);  -8(%rbp,%rax) --> %ecx */
+   asmstrr(MOVL, ECX, -8, RAX, code->stringval);  %ecx --> -8(%rbp,%rax) */
 void asmstrr(int inst, int srcreg, int offset, int reg, char str[]);
 /* Generate a store instruction using offset, RBP and
    another register with multiplier (2, 4 or 8): */

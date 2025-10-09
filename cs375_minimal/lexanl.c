@@ -1,8 +1,8 @@
-/* lexanl.c                Gordon S. Novak Jr.            06 Jul 12     */
+/* lexanl.c                Gordon S. Novak Jr.            04 Feb 22     */
 
 /* This is a main program for testing the lexical analyzer written in lex. */
 
-/* Copyright (c) 2012 Gordon S. Novak Jr. and
+/* Copyright (c) 2022 Gordon S. Novak Jr. and
    The University of Texas at Austin. */
 
 /* 09 Feb 01; 06 Jul 12     */
